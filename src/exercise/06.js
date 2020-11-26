@@ -1,7 +1,7 @@
 // Control Props
 // http://localhost:3000/isolated/exercise/06.js
 
-import React from 'react'
+import * as React from 'react'
 import {Switch} from '../switch'
 
 const callAll = (...fns) => (...args) => fns.forEach(fn => fn?.(...args))
@@ -34,7 +34,7 @@ function useToggle({
 } = {}) {
   const {current: initialState} = React.useRef({on: initialOn})
   const [state, dispatch] = React.useReducer(reducer, initialState)
-  // 🐨 determined whether on is controlled and assign that to `onIsControlled`
+  // 🐨 determine whether on is controlled and assign that to `onIsControlled`
   // 💰 `controlledOn != null`
 
   // 🐨 Replace the next line with assigning `on` to `controlledOn` if

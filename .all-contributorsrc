@@ -222,6 +222,51 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "patrickclery",
+      "name": "Patrick Clery",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25733135?v=4",
+      "profile": "https://git.io/JfYj5",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "degeens",
+      "name": "Stijn Geens",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33414262?v=4",
+      "profile": "https://github.com/degeens",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "MichaelDeBoey",
+      "name": "Michaël De Boey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6643991?v=4",
+      "profile": "https://michaeldeboey.be",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "DaleSeo",
+      "name": "Dale Seo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5466341?v=4",
+      "profile": "https://www.daleseo.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "bobbywarner",
+      "name": "Bobby Warner",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/554961?v=4",
+      "profile": "http://bobbywarner.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "repoHost": "https://github.com",

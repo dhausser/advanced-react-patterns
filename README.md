@@ -22,7 +22,7 @@
 
 <!-- prettier-ignore-start -->
 [![Build Status][build-badge]][build]
-[![AppVeyor Build Status][win-build-badge]][win-build]
+[![All Contributors][all-contributors-badge]](#contributors)
 [![GPL 3.0 License][license-badge]][license]
 [![Code of Conduct][coc-badge]][coc]
 <!-- prettier-ignore-end -->
@@ -39,7 +39,7 @@
 ## System Requirements
 
 - [git][git] v2.13 or greater
-- [NodeJS][node] `^10.13 || 12 || 14`
+- [NodeJS][node] `^10.13 || 12 || 14 || 15`
 - [npm][npm] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
@@ -85,6 +85,13 @@ right versions of the requirements listed above, and run the following commands:
 ```
 npm install
 npm run validate
+```
+
+If you are still unable to fix issues and you know how to use Docker 🐳 you can
+setup the project with the following command:
+
+```
+docker-compose up
 ```
 
 It's recommended you run everything locally in the same environment you work in
@@ -193,6 +200,11 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/nawok"><img src="https://avatars3.githubusercontent.com/u/159773?v=4" width="100px;" alt=""/><br /><sub><b>Pavel Fomchenkov</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=nawok" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.seemaullal.com"><img src="https://avatars0.githubusercontent.com/u/8728285?v=4" width="100px;" alt=""/><br /><sub><b>Seema Ullal</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=seemaullal" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://git.io/JfYj5"><img src="https://avatars0.githubusercontent.com/u/25733135?v=4" width="100px;" alt=""/><br /><sub><b>Patrick Clery</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=patrickclery" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/degeens"><img src="https://avatars2.githubusercontent.com/u/33414262?v=4" width="100px;" alt=""/><br /><sub><b>Stijn Geens</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=degeens" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=MichaelDeBoey" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.daleseo.com"><img src="https://avatars1.githubusercontent.com/u/5466341?v=4" width="100px;" alt=""/><br /><sub><b>Dale Seo</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=DaleSeo" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://bobbywarner.com"><img src="https://avatars0.githubusercontent.com/u/554961?v=4" width="100px;" alt=""/><br /><sub><b>Bobby Warner</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-patterns/commits?author=bobbywarner" title="Code">💻</a></td>
   </tr>
 </table>
 
@@ -216,17 +228,16 @@ Thank you! https://kcd.im/arp-ws-feedback
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
-[build-badge]: https://img.shields.io/travis/kentcdodds/advanced-react-patterns.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.com/kentcdodds/advanced-react-patterns
+[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/advanced-react-patterns/validate/main?logo=github&style=flat-square
+[build]: https://github.com/kentcdodds/advanced-react-patterns/actions?query=workflow%3Avalidate
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
-[license]: https://github.com/kentcdodds/advanced-react-patterns/blob/main/LICENSE
+[license]: https://github.com/kentcdodds/advanced-react-patterns/blob/main/LICENSE.md
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/advanced-react-patterns/blob/main/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
+[all-contributors-badge]: https://img.shields.io/github/all-contributors/kentcdodds/advanced-react-patterns?color=orange&style=flat-square
 [win-path]: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
 [mac-path]: http://stackoverflow.com/a/24322978/971592
 [issue]: https://github.com/kentcdodds/advanced-react-patterns/issues/new
-[win-build-badge]: https://img.shields.io/appveyor/ci/kentcdodds/advanced-react-patterns.svg?style=flat-square&logo=appveyor
-[win-build]: https://ci.appveyor.com/project/kentcdodds/advanced-react-patterns
 <!-- prettier-ignore-end -->

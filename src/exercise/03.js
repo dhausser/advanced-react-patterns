@@ -1,7 +1,7 @@
 // Flexible Compound Components
 // http://localhost:3000/isolated/exercise/03.js
 
-import React from 'react'
+import * as React from 'react'
 import {Switch} from '../switch'
 
 // 🐨 create your ToggleContext context here
@@ -25,7 +25,7 @@ function Toggle({onToggle, children}) {
 // ToggleContext now
 // 🦉 You can create a helper method to retrieve the context here. Thanks to that,
 // your context won't be exposed to the user
-// 💰 `const context = useContext(ToggleContext)`
+// 💰 `const context = React.useContext(ToggleContext)`
 // 📜 https://reactjs.org/docs/hooks-reference.html#usecontext
 function ToggleOn({on, children}) {
   return on ? children : null
